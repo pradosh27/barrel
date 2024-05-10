@@ -1,0 +1,28 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: "Roboto"sans-serif;
+}
+.container{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    padding: 10px;
+    background: hsl(0, 18%, 89%);
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.lubox{
+    font-size: 2rem;
+}
+.one{
+    display: flex;
+}
+.one h2{
+    margin-left: 8px;
+}
+.orders p {
+    margin-top: 10px;
+}

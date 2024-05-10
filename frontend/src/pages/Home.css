@@ -1,0 +1,400 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.homecard{
+    display: flex;
+    overflow-x: auto;
+}
+.fullImg{
+    width: 100%;
+}
+.secondone{
+    height: 848px;
+}
+.tales{
+    width: 33.3%;
+    height: 800px;
+    transition: 0.3s;
+}
+.tales :hover{
+    transform: translateX(-300%);
+}
+.thirdone{
+    background-image: url("https://cb.scene7.com/is/image/Crate/cb_dHP_20240423_LivingRoomEvent?bfc=on&amp;wid=1440&amp;qlt=80&amp;op_sharpen=1");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 800px;
+    padding-top: 20px;
+
+}
+.thirdone > h2{
+    font-size: 3rem;
+    margin-left: 20px;
+}
+.thirdone h2 span{
+    font-size: 3.5rem;
+    color: rgb(0, 138, 0);
+}
+.thirdone button{
+    padding: 10px;
+    width: 140px;
+    font-size: 1.2rem;
+    background: #000;
+    color: white;
+    border-radius: 5px;
+    margin: 20px;
+    border: none;
+}
+h1 {
+    font-size: 30px;
+  }
+  
+.text_1 {
+    margin-top: 20px;
+    margin-left: 8px;
+    animation: text1;
+  }
+  
+.text_2 {
+    margin-top: 20px;
+    margin-left: 8px;
+    animation: text2;
+}
+
+.text_1, .text_2 {
+    overflow: hidden;
+    white-space: nowrap;
+    display: inline-block;
+    position: relative;
+    animation-duration: 8s;
+    animation-timing-function: steps(25, end);
+    animation-iteration-count: infinite;
+}
+
+.text_1::after, .text_2::after {
+    content: "|";
+    position: absolute;
+    right: 0;
+    animation: caret infinite;
+    animation-duration: 0.8s;
+    animation-timing-function: steps(1, end);
+  }
+  
+ @keyframes text2 {
+    0%, 50%, 100% {
+        width: 0;
+    }
+    
+    60%, 90% {
+        width: 13.4em;
+    }
+}
+
+ @keyframes text1 {
+     0%, 50%, 100% {
+         width: 0;
+    }
+    10%, 40% {
+        width: 14em;
+    }
+  }
+  
+ @keyframes caret {
+     0%, 100% {
+         opacity: 0;
+        }
+    50% {
+        opacity: 1;
+    }
+}
+.fifthone{
+    display: flex;
+  }
+.fifthone .first{
+    background-image: url("//cb.scene7.com/is/image/Crate/cb_dHP_20240425_BrevillePromo?bfc=on&amp;wid=720&amp;qlt=80");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 800px;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 2.5rem;
+}
+.fifthone .second{
+    background-image: url("https://cb.scene7.com/is/image/Crate/cb_dHP_20240425_KitchenAidPromo?bfc=on&wid=720&qlt=80");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 800px;
+    padding-top: 20px;
+    font-size: 2.5rem;
+    text-align: center;
+}
+.fifthone .second h2 span{
+    font-size: 3.5rem;
+    color: rgb(0, 138, 0);
+}
+.fifthone .first h2 span{
+    font-size: 3.5rem;
+    color: rgb(0, 138, 0);
+}
+sup{
+    font-size: 1rem;
+    border: 1px solid;
+    border-radius: 50%;
+    padding: 3px;
+    font-weight: bolder;
+}
+.fifthone button{
+    padding: 10px;
+    width: 280px;
+    font-size: 1.2rem;
+    background: #000;
+    color: white;
+    border-radius: 5px;
+    margin: 14px;
+    border: none;
+}
+.sixthone{
+    background-image: url("https://cb.scene7.com/is/image/Crate/cb_dHP_20240417_LivingRoom?bfc=on&wid=1440&qlt=60&op_sharpen=1");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 800px;
+    padding-top: 20px;
+    text-align: end;
+    font-size: 2.5rem;
+    color: white;
+}
+.sixthone button{
+    padding: 10px;
+    width: 280px;
+    font-size: 1.2rem;
+    background: white;
+    color: black;
+    border-radius: 5px;
+    margin: 14px;
+    border: none;
+}
+.video-container {
+    height: 800px;
+    max-width: 100%;
+    position: relative;
+}
+
+.video-container video {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  object-fit: cover;
+  z-index: 0;
+}
+
+.video-container .caption {
+    z-index: 1;
+  position: relative;
+  text-align: center;
+  color: white;
+  padding: 10px;
+}
+.caption h2{
+    font-size: 2.5rem;
+}
+.caption2{
+    position: relative;
+    top: 270px;
+}
+.caption button{
+    position: relative;
+    top: 270px;
+    padding: 10px;
+    width: 280px;
+    font-size: 1.2rem;
+    background: white;
+    color: black;
+    border-radius: 5px;
+    margin: 14px;
+    border: none;
+}
+.seventhone{
+    background-image: url("https://cb.scene7.com/is/image/Crate/cb_dHP_20240402_DiningFurn?bfc=on&amp;wid=1440&amp;qlt=80&amp;op_sharpen=1");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 800px;
+    padding-top: 20px;
+    text-align: start;
+    font-size: 2.5rem;
+    color: black;
+}
+.seventhone h2{
+    margin: 20px;
+}
+.seventhone button{
+    padding: 10px;
+    width: 280px;
+    font-size: 1.2rem;
+    background: black;
+    color: white;
+    border-radius: 5px;
+    margin: 14px;
+    border: none;
+}
+.eightone{
+    background-image: url("https://cb.scene7.com/is/image/Crate/cb_dHP_20240311_Dinnerware?bfc=on&amp;wid=1440&amp;qlt=80&amp;op_sharpen=1");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 800px;
+    padding-top: 20px;
+    text-align: start;
+    font-size: 2.5rem;
+    color: black;
+}
+.eightone button{
+    padding: 10px;
+    width: 280px;
+    font-size: 1.2rem;
+    background: black;
+    color: white;
+    border-radius: 5px;
+    margin: 14px;
+    border: none;
+}
+.ninthone{
+    background-image: url("//cb.scene7.com/is/image/Crate/cb_dHP_20240328_LeCreusetV2?bfc=on&amp;wid=1440&amp;qlt=80&amp;op_sharpen=");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 800px;
+    padding-top: 20px;
+    text-align: end;
+    font-size: 2.5rem;
+    color: black;
+}
+.ninthone h2{
+    position: relative;
+    right: 20px;
+    font-size: 2.7rem;
+
+}
+.ninthone h2 span{
+    font-size: 3.5rem;
+    color: green;
+}
+.ninthone button{
+    padding: 10px;
+    width: 280px;
+    font-size: 1.2rem;
+    background: black;
+    color: white;
+    border-radius: 5px;
+    margin: 14px;
+    border: none;
+}
+.tenthone{
+    background-image: url("//cb.scene7.com/is/image/Crate/cb_dHP_20240402_BedroomFurn?bfc=on&amp;wid=1440&amp;qlt=80&amp;op_sharpen=1");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 800px;
+    padding-top: 20px;
+    text-align: start;
+    font-size: 2.5rem;
+    color: black;
+}
+.tenthone h2{
+    position: relative;
+    left: 20px;
+    font-size: 3rem;
+}
+.tenthone button{
+    padding: 10px;
+    width: 280px;
+    font-size: 1.2rem;
+    background: white;
+    color: black;
+    border-radius: 5px;
+    margin: 14px;
+    border: none;
+}
+.shipsfree{
+    text-decoration-line: overline underline;
+    text-decoration-thickness: 2.4px;
+    font-size: 1.3rem;
+    margin-left: 20px;
+    text-align: start;
+    font-family: "Crate Helvetica", "Helvetica Neue", Helvetica, Arial;
+    font-weight: 100;
+    text-underline-offset: 10px;
+    
+}
+.eleventhone{
+    background-image: url("//cb.scene7.com/is/image/Crate/cb_dHP_20240402_Bedding?bfc=on&amp;wid=1440&amp;qlt=80&amp;op_sharpen=1");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 800px;
+    padding-top: 20px;
+    text-align: end;
+    font-size: 2.5rem;
+    color: black;
+}
+.eleventhone .simple{
+    position: relative;
+    font-size: 3rem;
+    right: 20px;
+}
+.eleventhone button{
+    padding: 10px;
+    width: 280px;
+    font-size: 1.2rem;
+    background: black;
+    color: white;
+    border-radius: 5px;
+    margin: 14px;
+    border: none;
+}
+.twelvethone{
+    background-image: url("//cb.scene7.com/is/image/Crate/cb_dHP_20240402_Lighting?bfc=on&amp;wid=1440&amp;qlt=80&amp;op_sharpen=1");background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 800px;
+    padding-top: 20px;
+    text-align: start;
+    font-size: 2.5rem;
+    color: black;
+}
+.twelvethone h2{
+    position: relative;
+    left: 20px;
+    font-size: 3rem;
+}
+.twelvethone button{
+    padding: 10px;
+    width: 280px;
+    font-size: 1.2rem;
+    background: black;
+    color: white;
+    border-radius: 5px;
+    margin: 14px;
+    border: none;
+}
+.iconic{
+    position: relative;
+    top: 450px;
+    font-size: 1.2rem;
+    margin-left: 14px;
+}
